@@ -2,5 +2,19 @@ package metier;
 
 public class Ouvrage {
     private String titre;
-    private String Support;
+    private String support;
+
+    public String getTitre() {
+        return this.titre;
+    }
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public String getSupport() {
+        return this.support;}
+
+    public void setSupport(String support) {
+        this.support = support;
+    }
 }
