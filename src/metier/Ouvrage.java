@@ -5,8 +5,9 @@ public class Ouvrage {
     private String support;
 
     public String getTitre() {
-        return this.titre;
+        return titre;
     }
+
     public void setTitre(String titre) {
         this.titre = titre;
     }
