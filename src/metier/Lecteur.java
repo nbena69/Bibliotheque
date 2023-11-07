@@ -36,5 +36,6 @@ public class Lecteur {
 
     private void chargerProfil(){
         String n = "Na'el Benaïssa";
+        setNom(n);
     }
 }
